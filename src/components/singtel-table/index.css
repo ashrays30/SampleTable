@@ -218,12 +218,19 @@
   .table-main td {
     padding: 20px 0px;
   }
+
+  .table-main td:first-child {
+    padding: 20px 0px 20px 20px;
+  }
+
   .mark { 
-    top: -62px
+    top: -62px;
+    left: 10px;
   }
 
   .check {
-    top: -77px
+    top: -77px;
+    left: 10px;
   }
   .radio-container {
     padding-left: 50px;
