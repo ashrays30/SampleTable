@@ -1,13 +1,11 @@
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('../asserts/font/FontsFree-Net-AvenirLTStd-Book.ttf');
+}
+
 .App {
   width: 90%;
   margin: 30px auto;
-}
-
-@font-face {
-  font-family: 'Avenir LT Std';
-  font-style: normal;
-  font-weight: bold;
-  src: url('../asserts/font/FontsFree-Net-AvenirLTStd-Book.ttf');
 }
 
 .table-main {
@@ -55,6 +53,7 @@
   text-align: left;
   padding: 20px 15px;
   background: #F7F7F7;
+  font-weight: 700;
 }
 
 .table-main td {
